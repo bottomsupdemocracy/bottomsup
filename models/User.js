@@ -7,6 +7,7 @@ const userSchema = new mongoose.Schema({
   password: String,
   passwordResetToken: String,
   passwordResetExpires: Date,
+  opinions: Array, // contains Issue ObjectId 
 
   facebook: String,
   twitter: String,
